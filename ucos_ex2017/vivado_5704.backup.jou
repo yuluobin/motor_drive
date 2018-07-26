@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Jul 26 12:51:20 2018
+# Process ID: 5704
+# Current directory: C:/ucos_ex2017
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16748 C:\ucos_ex2017\ucos_ex2017.xpr
+# Log file: C:/ucos_ex2017/vivado.log
+# Journal file: C:/ucos_ex2017\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/ucos_ex2017/ucos_ex2017.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/ucos_ex2017/ucos_ex2017.sdk -hwspec C:/ucos_ex2017/ucos_ex2017.sdk/system_wrapper.hdf
+open_bd_design {C:/ucos_ex2017/ucos_ex2017.srcs/sources_1/bd/system/system.bd}
+startgroup
+set_property -dict [list CONFIG.PCW_GPIO_MIO_GPIO_ENABLE {1} CONFIG.PCW_GPIO_MIO_GPIO_IO {MIO} CONFIG.PCW_MIO_0_PULLUP {disabled}] [get_bd_cells processing_system7_0]
+endgroup
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+file copy -force C:/ucos_ex2017/ucos_ex2017.runs/impl_1/system_wrapper.sysdef C:/ucos_ex2017/ucos_ex2017.sdk/system_wrapper.hdf
+
+launch_sdk -workspace C:/ucos_ex2017/ucos_ex2017.sdk -hwspec C:/ucos_ex2017/ucos_ex2017.sdk/system_wrapper.hdf
+launch_sdk -workspace C:/ucos_ex2017/ucos_ex2017.sdk -hwspec C:/ucos_ex2017/ucos_ex2017.sdk/system_wrapper.hdf
+startgroup
+set_property -dict [list CONFIG.PCW_MIO_14_PULLUP {disabled}] [get_bd_cells processing_system7_0]
+endgroup
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+file copy -force C:/ucos_ex2017/ucos_ex2017.runs/impl_1/system_wrapper.sysdef C:/ucos_ex2017/ucos_ex2017.sdk/system_wrapper.hdf
+
+launch_sdk -workspace C:/ucos_ex2017/ucos_ex2017.sdk -hwspec C:/ucos_ex2017/ucos_ex2017.sdk/system_wrapper.hdf

@@ -1,0 +1,100 @@
+/*
+
+Vivado v2017.1 (64-bit)
+SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+
+Process ID: 12576
+License: Customer
+
+Current time: 	7/25/18 3:29:10 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 120
+Available screens: 1
+Available disk space: 10 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.1/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.1/tps/win64/jre/bin/java.exe
+Java library paths: C:/Xilinx/Vivado/2017.1/bin/unwrapped/win64.o;C:/WINDOWS/Sun/Java/bin;C:/WINDOWS/system32;C:/WINDOWS;C:/Xilinx/Vivado/2017.1/bin;C:/Xilinx/Vivado/2017.1/lib/win64.o;C:/Xilinx/Vivado/2017.1/tps/win64/jre/bin/server;C:/Xilinx/Vivado/2017.1/tps/win64/jre/bin;C:/Xilinx/SDK/2017.1/bin;C:/Xilinx/Vivado/2017.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.1/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado_HLS/2017.1/bin;C:/Program Files (x86)/Common Files/Oracle/Java/javapath;C:/Program Files (x86)/Intel/iCLS Client/;C:/Program Files/Intel/iCLS Client/;C:/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin;C:/Program Files (x86)/Common Files/Siemens/Bin;C:/Program Files (x86)/Common Files/Siemens/CommonArchiving;C:/Program Files (x86)/Common Files/Siemens/ACE/Bin;C:/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin;C:/Program Files/Common Files/Autodesk Shared/;C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common;C:/Program Files/nodejs/;C:/CTEX/UserData/miktex/bin;C:/CTEX/MiKTeX/miktex/bin;C:/CTEX/CTeX/ctex/bin;C:/CTEX/CTeX/cct/bin;C:/CTEX/CTeX/ty/bin;C:/CTEX/Ghostscript/gs9.05/bin;C:/CTEX/GSview/gsview;C:/CTEX/WinEdt;C:/Windows/System32;C:/Windows;C:/Windows/System32/wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Program Files/Microsoft SQL Server/120/Tools/Binn/;C:/Program Files/Microsoft SQL Server/130/Tools/Binn/;C:/TDM-GCC-64;C:/Program Files (x86)/GnuPG/bin;C:/Program Files/PuTTY/;C:/Program Files (x86)/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/;C:/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/;C:/Program Files (x86)/Microsoft SQL Server/120/DTS/Binn/;C:/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces;C:/Program Files (x86)/Common Files/Siemens/;C:/Program Files (x86)/Common Files/Siemens/Interfaces;C:/Program Files (x86)/Common Files/Siemens/ACE/Interfaces;C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL;C:/Program Files/Intel/Intel(R) Management Engine Components/DAL;C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT;C:/Program Files/Intel/Intel(R) Management Engine Components/IPT;C:/WINDOWS/System32/OpenSSH/;C:/Program Files/MATLAB/R2017b/runtime/win64;C:/Program Files/MATLAB/R2017b/bin;C:/Program Files/Git/cmd;C:/Users/yuluo/AppData/Local/Programs/Python/Python35/Scripts/;C:/Users/yuluo/AppData/Local/Programs/Python/Python35/;C:/Users/yuluo/AppData/Local/Microsoft/WindowsApps;C:/Python27;C:/Program Files/MiKTeX 2.9/miktex/bin/x64/;C:/Users/yuluo/AppData/Local/Programs/MiKTeX 2.9/miktex/bin/x64/;C:/Users/yuluo/AppData/Roaming/npm;C:/Program Files (x86)/Vim/vim80;C:/Program Files/Python36;C:/pylint-1.7.2;C:/Xilinx/Vivado/2017.1/tps/mingw/6.2.0/win64.o/nt/bin;C:/Xilinx/Vivado/2017.1/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	yuluo
+User home directory: C:/Users/yuluo
+User working directory: D:/ucos_ex2017
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.1
+RDI_DATADIR: C:/Xilinx/Vivado/2017.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.1/bin
+
+User preferences location: C:/Users/yuluo/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/yuluo/AppData/Roaming/Xilinx/Vivado/2017.1/vivado.xml
+Vivado layouts directory: C:/Users/yuluo/AppData/Roaming/Xilinx/Vivado/2017.1/layouts
+PlanAhead jar location: 	C:/Xilinx/Vivado/2017.1/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	D:/ucos_ex2017/.Xil/Vivado-12576-Booker-XPS-13
+
+GUI allocated memory:	180 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 526 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 38 MB (+37506kb) [00:00:08]
+// [Engine Memory]: 478 MB (+349383kb) [00:00:08]
+// bs:g (cg:JFrame):  Open Project : addNotify
+// Opening Vivado Project: D:\ucos_ex2017\ucos_ex2017.xpr. Version: Vivado v2017.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/ucos_ex2017/ucos_ex2017.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 50 MB (+10728kb) [00:00:11]
+// [Engine Memory]: 527 MB (+26904kb) [00:00:11]
+// HMemoryUtils.trashcanNow. Engine heap size: 556 MB. GUI used memory: 36 MB. Current time: 7/25/18 3:29:12 PM CST
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 562 MB (+9146kb) [00:00:16]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 53 MB (+539kb) [00:00:18]
+// [Engine Memory]: 595 MB (+4377kb) [00:00:18]
+// [GUI Memory]: 62 MB (+6329kb) [00:00:20]
+// [Engine Memory]: 650 MB (+26706kb) [00:00:20]
+// [GUI Memory]: 66 MB (+561kb) [00:00:20]
+// Tcl Message: open_project D:/ucos_ex2017/ucos_ex2017.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/HUA/workspace/Project/DC_Drive/firmware/ucos_ex2017' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.1/data/ip'. 
+// Project name: ucos_ex2017; location: D:/ucos_ex2017; part: xc7z010clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:13 . Memory (MB): peak = 891.160 ; gain = 133.922 
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 71 MB (+2057kb) [00:00:25]
+// TclEventType: DG_GRAPH_GENERATED
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Tcl Message: update_compile_order -fileset sources_1 
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac:JMenuItem (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa:p (cg:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aa:p)
+dismissDialog("Launch SDK"); // aa:p (cg:JFrame)
+// Tcl Message: launch_sdk -workspace D:/ucos_ex2017/ucos_ex2017.sdk -hwspec D:/ucos_ex2017/ucos_ex2017.sdk/system_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace D:/ucos_ex2017/ucos_ex2017.sdk -hwspec D:/ucos_ex2017/ucos_ex2017.sdk/system_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 76 MB (+1472kb) [00:01:19]

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# 
+# Start of session at: Thu Jul 26 12:26:55 2018
+# Process ID: 9436
+# Current directory: C:/ucos_ex2017/ucos_ex2017.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/ucos_ex2017/ucos_ex2017.sdk/webtalk/webtalk.log
+# Journal file: C:/ucos_ex2017/ucos_ex2017.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

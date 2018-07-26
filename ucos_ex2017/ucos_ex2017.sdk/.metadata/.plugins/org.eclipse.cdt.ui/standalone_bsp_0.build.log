@@ -1,0 +1,6 @@
+17:03:41 **** Build of project standalone_bsp_0 ****
+make -k all 
+make: *** 没有规则可以创建目标“all”.
+
+17:03:41 Build Finished (took 415ms)
+
